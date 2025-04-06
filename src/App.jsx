@@ -1,11 +1,17 @@
 import './App.css'
-
+import Header from './Compo/Header/Header'
+import HeroSection from './Compo/HeroSection/HeroSection'
+import Footer from './Compo/Footer/Footer'
 function App() {
 
 
   return (
     <>
-     <h1 className='bg-black text-6xl rounded-2xl p-4 text-green-400 w-full'>EntryDesh</h1>
+    
+     {/* <Header/> */}
+     <HeroSection/>
+     <Footer/>
+
     </>
   )
 }
