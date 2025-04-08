@@ -60,13 +60,17 @@ function HeroSection() {
               </NavLink>
               <NavLink
                 to="/marketplace"
-                className="text-sm font-semibold text-gray-900"
+                className={
+                  ({isActive}) => `text-sm ${isActive ? "text-red-700" : "text-gray-700"}`
+          }
               >
                 Marketplace
               </NavLink>
               <NavLink
                 to="/company"
-                className="text-sm font-semibold text-gray-900"
+                className={
+                  ({isActive}) => `text-sm ${isActive ? "text-red-700" : "text-gray-700"}`
+          }
               >
                 Company
               </NavLink>
