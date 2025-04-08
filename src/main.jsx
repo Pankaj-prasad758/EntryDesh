@@ -13,6 +13,8 @@ import Layout from "./Compo/Layout.jsx";
 import About from "./Compo/About/About.jsx";
 import Product from "../src/Compo/Product.jsx";
 import Features from "../src/Compo/Features.jsx";
+import User from "./User/User.jsx";
+import GithubApi from "./Compo/Github/GithubApi.jsx";
 // const router = createBrowserRouter([
 //   {
 //     path:'/',
@@ -46,6 +48,8 @@ const router = createBrowserRouter(
       <Route path="product" element={<Product />} />
       <Route path="features" element={<Features />} />
       <Route path="about" element={<About />} />
+      <Route path="user/:userId" element={<User />} />
+      <Route path="githubapi" element={<GithubApi />} />
     </Route>
   )
 );

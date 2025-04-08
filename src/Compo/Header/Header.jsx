@@ -78,7 +78,7 @@ function Header() {
                 About
               </NavLink>
               <NavLink
-                to="/company"
+                to="/githubapi"
                 className={({ isActive }) =>
                   `text-sm ${
                     isActive
@@ -87,7 +87,7 @@ function Header() {
                   }`
                 }
               >
-                Company
+                GithubApi
               </NavLink>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
